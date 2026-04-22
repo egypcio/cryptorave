@@ -1,6 +1,8 @@
 ELKE - Uma maravilha de ambiente criptografado usando FreeBSD. Gracinha! :wink:
 
   * https://cpa.cryptorave.org/cryptorave-2026/talk/NGVZED/
+    - https://2026.cryptorave.org
+    - http://femqcuwjelcd3lwdb2n47ylx6bsvbf3tqbb5sqrv7tbfvtetyyfsifqd.onion
 
 # Motivação
 
