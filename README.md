@@ -1,6 +1,6 @@
 ELKE - uma maravilha de ambiente criptografado usando FreeBSD
 
-> encrypted & lovely kage environment
+> Encrypted & Lovely Kage Environment
 
   * https://cpa.cryptorave.org/cryptorave-2026/talk/NGVZED
     - https://2026.cryptorave.org
@@ -26,17 +26,6 @@ A ideia é, então, apresentar, em primeiríssima mão (e com um conteúdo em po
 Além de armazenamento dos dados sensiveis, casos de uso mais específicos podem envolver, mas não se limitar à: sistemas de análise forense de malwares, ou base para instalação de instâncias do securedrop (ou globaleak).
 
 ---
-
-# Motivação
-
-  ### Setups Semelhantes
-    * https://cyberciti.biz/security/how-to-unlock-luks-using-dropbear-ssh-keys-remotely-in-linux
-    * https://dwarmstrong.org/remote-unlock-dropbear
-    * https://swissmade.host/en/blog/unlocking-a-luks-fully-encrypted-drive-and-booting-into-the-os-via-dropbear-ssh
-
-  ### EuroBSDCon
-    * https://slideshare.net/slideshow/eurobsdcon-2021-autoinstalling-bsd-systems/250243872
-    * https://slideshare.net/slideshow/eurobsdcon-2023-autoinstalling-bsd-systems-cases-using-pfsense-truenas-and-more/261357863
 
 # Sistema Operacional da Base (FreeBSD)
 
@@ -65,10 +54,12 @@ Além de armazenamento dos dados sensiveis, casos de uso mais específicos podem
     * Disco: 8GB
 
   ### FreeBSD
-    * UFS:/dev/ufs/base (kernel)
-    * ZFS:elke/ROOT/main
+    * UFS:/dev/gpt/base (kernel & set-minimal)
+    * ZFS:elke/ROOT/main (pkg & set-base)
 
-# Virtualização para Prova de Conceito
+# Virtualização/Hipervisores
+
+> Nenhuma recomendação específica aqui; use o que você se sentir mais confortável. A idéia é montar uma prova de conceito, e nada muito sofisticado.
 
   ### Hyper-V
     * https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v
