@@ -8,7 +8,7 @@ ELKE - uma maravilha de ambiente criptografado usando FreeBSD
 
 <div align="center">
     <img src="ELKE.png" alt="Elke Maravilha">
-    https://duckduckgo.com/?q=elke+maravilha
+    <br>https://duckduckgo.com/?q=elke+maravilha
 </div>
 
 # Resumo
