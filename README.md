@@ -62,14 +62,17 @@ Versões, arquiteturas e suas respectivas imagens ou artefatos de instalação:
 # Ambiente Básico de Prova
 
 ### Hardware (Físico ou Virtualizado)
+
+> Considere que seja possível boot da imagem de instalação do FreeBSD usando uma ISO ou um pendrive USB.
+
   * Arquitetura: aarch64 (arm64), i386, ou x86_64 (amd64)
   * CPU: 1
-  * Interface de Rede: 1
+  * Interface de Rede: 1 (com ou sem acesso a Internet)
   * RAM: 1GB
   * Disco: 8GB
 
 ### FreeBSD
-  * FAT:/dev/gpt/uefi
+  * FAT:/dev/gpt/uefi (bootloader)
     - loader.efi
   * UFS:/dev/gpt/base (kernel & set-minimal)
     - base.img.uzip
@@ -80,18 +83,6 @@ Versões, arquiteturas e suas respectivas imagens ou artefatos de instalação:
 
 > Nenhuma recomendação específica aqui; use o que você se sentir mais confortável. A idéia é montar uma prova de conceito, e nada muito sofisticado.
 
-### Hyper-V
-  * https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v
-
-### QEMU
-  * https://qemu.org
-
-### UTM
-  * https://mac.getutm.app
-
-### VirtualBox
-  * https://virtualbox.org
-
 ### bhyve
   * https://bhyve.org
 
@@ -100,3 +91,15 @@ Versões, arquiteturas e suas respectivas imagens ou artefatos de instalação:
 
 ### vmm
   * https://openbsd.org/faq/faq16.html
+
+### QEMU
+  * https://qemu.org
+
+### Hyper-V
+  * https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v
+
+### UTM
+  * https://mac.getutm.app
+
+### VirtualBox
+  * https://virtualbox.org
