@@ -12,9 +12,11 @@ ELKE - uma maravilha de ambiente criptografado usando FreeBSD
 </div>
 
 # Resumo
+
 Esse trabalho é focado na instalação de um ambiente FreeBSD em um servidor físico (ou virtual) em caráter de prova de conceito; a idéia principal é oferecer um sistema com criptografia de disco que possibilite desbloqueio remoto via SSH (combinado com Tor onion services, ou não). O disco pode oferecer partições ou datasets ZFS criptografados (onde instalamos o sistema operacional, e/ou armazenamos dados sensíveis).
 
 # Descrição
+
 As principais motivações para este trabalho e o compartilhamento dos detalhes de instalação do ambiente vem de duas apresentações feitas na EuroBSDCon (conferência européia sobre sistemas de linhagem BSD) com materiais, infelizmente, somente em língua inglesa:
 
 * https://slideshare.net/slideshow/eurobsdcon-2021-autoinstalling-bsd-systems/250243872
@@ -36,6 +38,16 @@ Caso busque projetos similares que já entregem algum tipo de código pronto (fu
   * https://github.com/emtiu/freebsd-outerbase
   * https://github.com/oxfox22/freebsd-remote-crypto-single-drive
   * https://github.com/Sec42/freebsd-remote-crypto
+
+# Aviso/Nota
+
+Percebam pequenas discrepâncias em segmentos pontuais nas capturas de telas e sintaxe de alguns comandos exibidos nas telas; sim, elas existem e muito provavelmente permanecerão aí. Fica, no entando, o encorajamento para pesquisa e leitura mais aprofundada de como a implementação plena deve ser desenvolvida no lado de quem está interessado no setup.
+
+Além disso, sim, ficaram "faltando" menções sobre alguns pontos mais detalhados "aqui e ali" como alguns contatos já questionaram - apenas um, na minha opinião, merece um destaque em especial:
+
+  * https://bsdday.com.br (evento focado em BSD que ocorre frequentemente em seropécida no rio de janeiro).
+
+Os demais: um abraço, um beijo e um queijo ;)
 
 ---
 
