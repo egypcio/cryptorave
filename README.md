@@ -45,7 +45,7 @@ Percebam pequenas discrepâncias em segmentos pontuais nas capturas de telas e s
 
 Além disso, sim, ficaram "faltando" menções sobre alguns pontos mais detalhados "aqui e ali" como alguns contatos já questionaram - apenas um, na minha opinião, merece um destaque em especial:
 
-  * https://bsdday.com.br (evento focado em BSD que ocorre frequentemente em seropécida no rio de janeiro).
+  * https://bsdday.com.br (evento focado em BSD que ocorre em seropécida no rio de janeiro).
 
 Os demais: um abraço, um beijo e um queijo ;)
 
