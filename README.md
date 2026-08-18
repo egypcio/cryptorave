@@ -76,7 +76,7 @@ Versões, arquiteturas e suas respectivas imagens ou artefatos de instalação:
 
 ### Hardware (Físico ou Virtualizado)
 
-> Considere que seja possível boot da imagem de instalação do FreeBSD usando uma ISO ou um pendrive USB.
+> Considere que seja possível boot da imagem de instalação do FreeBSD usando uma ISO ou um pendrive USB. Setups avançados utilizando boot via rede (iPXE) também é possível, mas fica a seu critério desenrolar isso por conta própria - caso necessite de uma base, acredito que já saibas onde buscar (sim! logo acima, nos materiais citados).
 
   * Arquitetura: aarch64 (arm64), i386, ou x86_64 (amd64)
   * CPU: 1
